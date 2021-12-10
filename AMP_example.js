@@ -42,8 +42,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 					//{image : 'w09.jpg'}, 
 					//{image : 'w10.jpg'}, 
 					//{image : 'w11.jpg'}, 
-					//{image : 'w12.jpg'}]
-			}
+					//{image : 'w12.jpg'}
+				]
 		],
 
 		examplePrimeStimulus : 
