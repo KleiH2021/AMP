@@ -54,7 +54,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://github.com/KleiH2021/AMP/tree/main/stimuli'
+			image : 'https://kleih2021.github.io/AMP/stimuli'
 		}
 	});
 });
