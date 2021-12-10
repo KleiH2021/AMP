@@ -1,37 +1,59 @@
-Qualtrics.SurveyEngine.addOnload(function () {
-    // hide question and next button
-    var container = this.getQuestionContainer();
-    container.querySelector('.Inner').style.display = 'none';
-    this.hideNextButton();
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
 
-    // load MinnoJS from the CDN (you probably don't need to change this)
-    var scriptTag = document.createElement('script');
-    scriptTag.src = 'https://cdn.jsdelivr.net/gh/minnojs/minno-quest@0.3/dist/pi-minno.js';
-    scriptTag.onload = onLoad;
-    scriptTag.onreadystatechange = onLoad;
-    container.appendChild(scriptTag);
+	var API = new APIConstructor();
+	
+	
+	return ampExtension({
+		primeCats :  [
+			{
+				nameForFeedback : 'Black people',  //Will be used in the user feedback 
+				nameForLogging : 'Black people', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {image : 'b01.jpg'}, 
+					{image : 'b02.jpg'}, 
+					{image : 'b03.jpg'}, 
+					{image : 'b04.jpg'}, 
+					{image : 'b05.jpg'}, 
+					{image : 'b06.jpg'}, 
+					{image : 'b07.jpg'}, 
+					{image : 'b08.jpg'}, 
+					{image : 'b09.jpg'}, 
+					{image : 'b10.jpg'}, 
+					{image : 'b11.jpg'}, 
+					{image : 'b12.jpg'}]
 
-    // create the root element for Minno
-    var canvas = document.createElement('div');
-    container.appendChild(canvas);
+			}, 
+			{
+				nameForFeedback : 'White people',  //Will be used in the user feedback 
+				nameForLogging : 'White people', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {image : 'w01.jpg'}, 
+					{image : 'w02.jpg'}, 
+					{image : 'w03.jpg'}, 
+					{image : 'w04.jpg'}, 
+					{image : 'w05.jpg'}, 
+					{image : 'w06.jpg'}, 
+					{image : 'w07.jpg'}, 
+					{image : 'w08.jpg'}, 
+					{image : 'w09.jpg'}, 
+					{image : 'w10.jpg'}, 
+					{image : 'w11.jpg'}, 
+					{image : 'w12.jpg'}]
+			}
+		],
 
-    // function to proceed to next question
-    var proceed = this.clickNextButton.bind(this);
+		examplePrimeStimulus : 
+		{
+			nameForLogging : 'examplePrime', //Will be used in the logging
+			//An array of all media objects for this category.
+			mediaArray : [{image : 'ampchair.jpg'}, {image : 'amplamp.jpg'}, {image : 'ampumbrella.jpg'}]
+		},
 
-    // This function gets activated only after MinnoJS is loaded
-    function onLoad() {
-        // Run your study (just set the correct URL)
-        minnoJS(canvas, 'https://pcplab.sfo2.digitaloceanspaces.com/ezlot/settings.js');
-
-        // MinnoJS doesn't know about Qualtrics, we pass a function to inject the results into the question
-        // For some reason `piGlobal` isn't available so we attach it to `minnoJS`
-        minnoJS.logger = function (value) {
-            var el = container.querySelector('textarea');
-            el.value = value;
-        }
-
-        // At the end of the study let MinnoJS proceed to the next question
-        // We need to wait a few miliseconds for Qualtrics to register the value that we entered
-        minnoJS.onEnd = function () { setTimeout(proceed, 100); }
-    }
+		base_url : {//Where are your images at?
+			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
+		}
+	});
 });
+
