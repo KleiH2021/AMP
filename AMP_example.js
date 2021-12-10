@@ -6,8 +6,8 @@ define(['pipAPI', 'https://github.com/KleiH2021/AMP/blob/main/AMP_example.js'], 
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'Black people',  //Will be used in the user feedback 
-				nameForLogging : 'Black people', //Will be used in the logging
+				nameForFeedback : 'Pictographs',  //Will be used in the user feedback 
+				nameForLogging : 'Pictographs', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'b01.jpg'}, 
@@ -28,8 +28,8 @@ define(['pipAPI', 'https://github.com/KleiH2021/AMP/blob/main/AMP_example.js'], 
 
 			}, 
 			{
-				nameForFeedback : 'White people',  //Will be used in the user feedback 
-				nameForLogging : 'White people', //Will be used in the logging
+				nameForFeedback : 'control',  //Will be used in the user feedback 
+				nameForLogging : 'control', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'w01.jpg'}, 
