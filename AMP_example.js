@@ -11,17 +11,19 @@ define(['pipAPI', 'https://github.com/KleiH2021/AMP/blob/main/AMP_example.js'], 
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'b01.jpg'}, 
-					{image : 'b02.jpg'}, 
-					{image : 'b03.jpg'}, 
-					{image : 'b04.jpg'}, 
-					{image : 'b05.jpg'}, 
-					{image : 'b06.jpg'}, 
-					{image : 'b07.jpg'}, 
-					{image : 'b08.jpg'}, 
-					{image : 'b09.jpg'}, 
-					{image : 'b10.jpg'}, 
-					{image : 'b11.jpg'}, 
-					{image : 'b12.jpg'}]
+					{image : 'S01.bmp'}, 
+					{image : 'S02.bmp'}, 
+					{image : 'S03.bmp'}, 
+					{image : 'S04.bmp'}, 
+					{image : 'S05.bmp'}, 
+					{image : 'S06.bmp'}, 
+					{image : 'S07.bmp'}, 
+					{image : 'S08.bmp'}, 
+					{image : 'S09.bmp'}, 
+					{image : 'S10.bmp'}, 
+					{image : 'S11.bmp'}
+							]
+			
 
 			}, 
 			{
@@ -52,7 +54,7 @@ define(['pipAPI', 'https://github.com/KleiH2021/AMP/blob/main/AMP_example.js'], 
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
+			image : 'https://github.com/KleiH2021/AMP/tree/main/stimuli'
 		}
 	});
 });
