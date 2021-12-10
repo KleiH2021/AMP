@@ -21,7 +21,8 @@ define(['pipAPI', 'https://github.com/KleiH2021/AMP/blob/main/AMP_example.js'], 
 					{image : 'S08.bmp'}, 
 					{image : 'S09.bmp'}, 
 					{image : 'S10.bmp'}, 
-					{image : 'S11.bmp'}
+					{image : 'S11.bmp'},
+					{image : 'S12.bmp'}
 							]
 			
 
