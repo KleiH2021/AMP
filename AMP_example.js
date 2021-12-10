@@ -9,8 +9,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForFeedback : 'Pictographs',  //Will be used in the user feedback 
 				nameForLogging : 'Pictographs', //Will be used in the logging
 				//An array of all media objects for this category.
-				mediaArray : [
-				    {image : 'b01.jpg'}, 
+				mediaArray : [ 
 					{image : 'S01.bmp'}, 
 					{image : 'S02.bmp'}, 
 					{image : 'S03.bmp'}, 
