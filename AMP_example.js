@@ -13,15 +13,15 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 					{image : 'S01.bmp'}, 
 					{image : 'S02.bmp'}, 
 					{image : 'S03.bmp'}, 
-					{image : 'S04.bmp'}, 
-					{image : 'S05.bmp'}, 
-					{image : 'S06.bmp'}, 
-					{image : 'S07.bmp'}, 
-					{image : 'S08.bmp'}, 
-					{image : 'S09.bmp'}, 
-					{image : 'S10.bmp'}, 
-					{image : 'S11.bmp'},
-					{image : 'S12.bmp'}
+					//{image : 'S04.bmp'}, 
+					//{image : 'S05.bmp'}, 
+					//{image : 'S06.bmp'}, 
+					//{image : 'S07.bmp'}, 
+					//{image : 'S08.bmp'}, 
+					//{image : 'S09.bmp'}, 
+					//{image : 'S10.bmp'}, 
+					//{image : 'S11.bmp'},
+					//{image : 'S12.bmp'}
 							]
 			
 
@@ -31,18 +31,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'control', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'w01.jpg'}, 
-					{image : 'w02.jpg'}, 
-					{image : 'w03.jpg'}, 
-					{image : 'w04.jpg'}, 
-					{image : 'w05.jpg'}, 
-					{image : 'w06.jpg'}, 
-					{image : 'w07.jpg'}, 
-					{image : 'w08.jpg'}, 
-					{image : 'w09.jpg'}, 
-					{image : 'w10.jpg'}, 
-					{image : 'w11.jpg'}, 
-					{image : 'w12.jpg'}]
+				    {image : 'S17.bmp'}, 
+					{image : 'S18.bmp'}, 
+					{image : 'S19.bmp'}, 
+					//{image : 'w04.jpg'}, 
+					//{image : 'w05.jpg'}, 
+					//{image : 'w06.jpg'}, 
+					//{image : 'w07.jpg'}, 
+					//{image : 'w08.jpg'}, 
+					//{image : 'w09.jpg'}, 
+					//{image : 'w10.jpg'}, 
+					//{image : 'w11.jpg'}, 
+					//{image : 'w12.jpg'}]
 			}
 		],
 
@@ -50,7 +50,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{image : 'ampchair.jpg'}, {image : 'amplamp.jpg'}, {image : 'ampumbrella.jpg'}]
+			mediaArray : [{image : 'neut01.bmp'}, {image : 'neut02.bmp'}, {image : 'neut03.bmp'}]
 		},
 
 		base_url : {//Where are your images at?
