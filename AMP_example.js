@@ -6,8 +6,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'Pictographs',  //Will be used in the user feedback 
-				nameForLogging : 'Pictographs', //Will be used in the logging
+				nameForFeedback : 'Black people',  //Will be used in the user feedback 
+				nameForLogging : 'Black people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [ 
 					{image : 'S01.bmp'}, 
@@ -27,8 +27,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
 			}, 
 			{
-				nameForFeedback : 'control',  //Will be used in the user feedback 
-				nameForLogging : 'control', //Will be used in the logging
+				nameForFeedback : 'White people',  //Will be used in the user feedback 
+				nameForLogging : 'White people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {image : 'S17.bmp'}, 
