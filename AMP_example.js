@@ -10,9 +10,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'Black people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [ 
-					{image : 'instalogo.jpeg'}, 
-					{image : 'instalogo2.jpeg'}, 
-					{image : 'sc2.jpeg'}, 
+					{image : 'S38.jpg'}, 
+					{image : 'S39.jpg'}, 
+					{image : 'S40.jpg'}, 
 					//{image : 'S04.bmp'}, 
 					//{image : 'S05.bmp'}, 
 					//{image : 'S06.bmp'}, 
@@ -31,9 +31,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'White people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'instalogo.jpeg'}, 
-					{image : 'instalogo2.jpeg'}, 
-					{image : 'sc2.jpeg'}, 
+				    {image : 'S39.jpg'}, 
+					{image : 'S39.jpg'}, 
+					{image : 'S40.jpg'}, 
 					//{image : 'w04.jpg'}, 
 					//{image : 'w05.jpg'}, 
 					//{image : 'w06.jpg'}, 
@@ -51,7 +51,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{image : 'instalogo.jpeg'}, {image : 'instalogo2.jpeg'}, {image : 'sc2.jpeg'}]
+			mediaArray : [{image : 'S38.jpg'}, {image : 'S39.jpg'}, {image : 'S40.jpg'}]
 		},
 
 		base_url : {//Where are your images at?
